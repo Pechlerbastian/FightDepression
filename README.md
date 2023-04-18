@@ -89,7 +89,8 @@ For training, the following hyperparameters were used:
     "specaug_freq_mask_num": [1],
     "specaug_time_mask_num": [1]
 
-    
+
+The DataParser used for training can be found at /FightDepression/python_utils/DataParser.py. This class implements a parse_labels() method needed for the training pipeline. It also features a generate_new_labels function which was used to determine the duration frames of each recording, the mean of the ratings and was used for adjustments of the value range.
     
 <table>
   <tr>
@@ -174,6 +175,9 @@ For training, the following hyperparameters were used:
 
 The best performance was determined for fold 3 with densenet201 as base model. For this model, a Spearman coefficient of 0.2143 and a Pearson coefficient of 0.1765 were reached. 
 
+This app used a preprocessor and a tflite model to make the prediction of the scores. Both were created by utilization of DeepSpectrumLite. The preprocessor can be created by command line interface (deepspectrumlite create-preprocessor -d "path to model" -hc "path to hyperparameters". The resulting perprocessor folder was then converted to a tflite model via python script (see /python_utils/convert.py). The .h5 model resulting from the training was converted in a tflite model by utilizing the convert command in DeepSpectrumLite (# deepspectrumlite convert -s "path to trained h5.model" -d "path to tflite model").
+
+
 ## Getting Started
 To get started with the Fight Depression App you have to:
 - clone this repository
@@ -181,18 +185,12 @@ To get started with the Fight Depression App you have to:
 - use the command flutter pub get in app root
 - start a emulator or plug in a mobile phone
 - run with the command flutter run or start a debugging session
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
-Once the app runs, follow the on-screen instructions to set up your account and begin using the Depression Training program.
+Once the app runs, follow the on-screen instructions to begin using the Depression Training program.
 
 ## License
 The Mood Improvement App is released under the GPLv3 License.
