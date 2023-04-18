@@ -94,14 +94,20 @@ class _ReappraisalScreenState extends State<ReappraisalScreen> {
             children: <Widget>[
               
               Align(
+                
                 alignment: Alignment.bottomRight,
-                child: FloatingActionButton(
-                backgroundColor: Theme.of(context).primaryColor,
-                onPressed: () => goToRecordingScreen(),
-                tooltip: 'Start reapprasial process',
-                child: const Icon(Icons.play_arrow, color: Colors.white,),
-              ),
-              ),],
+                child: 
+                Container(
+                  margin: EdgeInsets.only(bottom: 16, right: 16),
+                  child:
+                    FloatingActionButton(
+                      backgroundColor: Theme.of(context).primaryColor,
+                      onPressed: () => goToRecordingScreen(),
+                      tooltip: 'Start reapprasial process',
+                      child: const Icon(Icons.play_arrow, color: Colors.white,),
+                   ),
+                ),
+          )],
           ),
           
       ]),);
