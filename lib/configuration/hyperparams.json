@@ -1,0 +1,40 @@
+{
+    "sample_rate":      [16000],
+    "normalize_audio":  [false],
+
+    "chunk_size":       [4.0],
+    "chunk_hop_size":   [2.0],
+
+    "stft_window_size": [0.128],
+    "stft_hop_size":    [0.064],
+    "stft_fft_length":  [0.128],
+
+    "mel_scale":        [true],
+    "lower_edge_hertz": [0.0],
+    "upper_edge_hertz": [8000.0],
+    "num_mel_bins":     [128],
+    "num_mfccs":        [0],
+    "cep_lifter":       [0],
+    "db_scale":         [true],
+    "use_plot_images":  [true],
+    "color_map":        ["viridis"],
+    "image_width":      [224],
+    "image_height":     [224],
+    "resize_method":    ["nearest"],
+    "anti_alias":       [false],
+
+    "sap_aug_a":        [0.5],
+    "sap_aug_s":        [10],
+    "augment_cutmix":   [true],
+    "augment_specaug":  [true],
+    "da_prob_min":      [0.1],
+    "da_prob_max":      [0.5],
+    "cutmix_min":       [0.075],
+    "cutmix_max":       [0.25],
+    "specaug_freq_min": [0.1],
+    "specaug_freq_max": [0.3],
+    "specaug_time_min": [0.1],
+    "specaug_time_max": [0.3],
+    "specaug_freq_mask_num": [4],
+    "specaug_time_mask_num": [4]
+}

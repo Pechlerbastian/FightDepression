@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="statements">
+        <item>Meine Zukunft ist absolut hoffnungslos!</item>
+        <item>Ich komme mit dem Leben überhaupt nicht zurecht!</item>
+        <item>Mein Leben ist total sinnlos!</item>
+        <item>Ich bin ein totaler Versager!</item>
+        <item>Es gibt absolut keine Hoffnung!</item>
+        <item>Ich bin absolut nicht liebenswert!</item>
+        <item>Ich habe überhaupt keine positiven Eigenschaften!</item>
+        <item>Ich kann überhaupt nichts!</item>
+        <item>Ich habe überhaupt keine Kraft mehr!</item>
+        <item>Mein Leben ist absolut unerträglich!</item>
+    </string-array>
+
+    <string-array name="reappraisals">
+        <item>Nein! Das stimmt so nicht! Ich kann mir schon vorstellen, dass die Zukunft auch Schönes für mich bereithält.</item>
+        <item>Nein! So würde ich das nicht sagen! Ich weiß zwar nicht, was mir die Zukunft bringt, aber ich bin zuversichtlich, dass auch schöne Momente dabei sind.</item>
+        <item>Nein, so ist das nicht! Wenn man nicht aufgibt, geht immer irgendwas!</item>
+
+        <item>Nein! Das stimmt so nicht! Denn es gibt einige Bereiche in meinem Leben, in denen ich durchaus etwas zustande bringe. </item>
+        <item>Nein! Das sehe ich nicht so! Und wer sagt überhaupt, dass ich immer mit allem zurechtkommen muss? Schwächen darf ich doch haben!</item>
+        <item>Nein, das ist total falsch! Ich meistere mein Leben durchaus!</item>
+
+        <item>Nein! Das ist falsch! Meinem Leben einen Sinn geben ist vielleicht schwierig, aber auch möglich.</item>
+        <item>Nein! Das stimmt nicht! Meine Familie gibt mir durchaus Sinn!</item>
+        <item>Nein! So ist das nicht! Ich kann Sinn in meiner Arbeit oder dem, was ich tue finden!</item>
+
+        <item>Nein! Dass, das stimmt nicht! Es gibt durchaus Einiges, was ich hinbekomme!</item>
+        <item>Nein! Ich bin kein „totaler Versager“! Und wenn ich mal was nicht hinbekomme, dann verzeihe ich mir das.</item>
+        <item>Nein! Ich sehe das nicht so! Und wenn mir mal was nicht gelingt, lobe ich mich dafür, dass ich es überhaupt probiert habe. </item>
+
+        <item>Nein! Das sehe ich nicht so! Denn so schnell gebe ich nicht auf! Die Hoffnung stirbt zuletzt!</item>
+        <item>Nein! Das ist total falsch! Ich habe mein Leben in der Hand. Nach einem Rückschlag rapple ich mich irgendwann schon wieder auf. </item>
+        <item>Nein! Das stimmt so nicht! Ich lasse mich nicht unterkriegen! Dafür bin ich zu zäh!</item>
+
+        <item>Nein! Das würde ich so nicht sagen. Ich habe durchaus liebenswerte Seiten!</item>
+        <item>Nein! „Absolut nicht“ stimmt schon mal gar nicht Und davon abgesehen: Ich muss nicht von allen geliebt werden!</item>
+        <item>Nein! Das ist total falsch! Es reicht mir nämlich völlig, wenn ich für meine Freunde und meine Familie liebenswert bin.</item>
+
+        <item>Nein! Das ist total falsch! Ich habe durchaus positive Eigenschaften, </item>
+        <item>Nein! „Überhaupt nicht“ stimmt schon gar nicht! Und wer urteilt eigentlich darüber, was positiv und was negativ ist?</item>
+        <item>Nein! Das stimmt so nicht! Ich erkenne für mich durchaus positive Eigenschaften. Und dann ist es mir egal, was andere sagen.</item>
+
+        <item>Nein! Das ist total falsch! Ich habe durchaus bestimmte Fähigkeiten in mir!</item>
+        <item>Nein! „Überhaupt nichts“ ist total destruktiver Quatsch. Ich bin lieber nett zu mir und wertschätze, was ich kann.</item>
+        <item>Nein! Das stimmt so nicht, denn ich habe es geschafft, mir Hilfe zu holen, das ist doch schon mal was!</item>
+
+        <item>Nein! Das stimmt nicht, denn ich habe es geschafft, heute hierher zu kommen. </item>
+        <item>Nein! „Überhaupt keine Kraft“ ist falsch. Ein bisschen Kraft habe ich schon noch.</item>
+        <item>Nein! Das ist falsch! Ich hatte heute die Kraft, mich diesem Training zu stellen.</item>
+
+        <item>Nein! Das stimmt nicht! Wenn ich ganz genau hinschaue, finde ich durchaus was Schönes in meinem Leben.</item>
+        <item>Nein! Das stimmt so nicht! Mein Leben ist zwar gerade nicht rosig, aber ich weiß, dass es wieder besser wird.</item>
+        <item>Nein! Das kommt mir vielleicht gerade so vor. Aber das ist eine Krise, aus der ich mich wieder herausarbeiten kann.</item>
+
+    </string-array>
+
+
+</resources>
