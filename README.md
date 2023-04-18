@@ -7,7 +7,11 @@ The Fight Depression App is a mobile application that is designed to help people
 ### Depression Training
 The Depression Training program is a daily activity that helps users confront negative thoughts and emotions. Each day, the user is presented with five statements (one after another) that are designed to trigger negative thoughts or emotions. The user is then given several reappraisals for each statement, which are positive or neutral statements that can help the user reframe their thinking.
 
-
+<p align="center">
+    <img src="https://github.com/Pechlerbastian/FightDepression/blob/main/WhatsApp%20Image%202023-04-18%20at%2014.07.27.jpeg?raw=true" width="200">
+    <img src="https://github.com/Pechlerbastian/FightDepression/blob/main/WhatsApp%20Image%202023-04-18%20at%2014.11.42.jpeg?raw=true" width="200">
+    <img src="https://github.com/Pechlerbastian/FightDepression/blob/main/WhatsApp%20Image%202023-04-18%20at%2014.07.26.jpeg?raw=true" width="200">
+</p>
 
 The user selects a reappraisal for each statement and then records themselves reading the reappraisal three times. The app uses a deep learning model to predict the user's depressive score based on the recordings.
 
@@ -15,7 +19,11 @@ The user selects a reappraisal for each statement and then records themselves re
 The app features a predictive model that uses deep learning to estimate the user's depressive score. The model analyzes the user's recordings and uses machine learning algorithms to predict the user's level of depression on a scale from 0 to 10. The app tracks the user's daily scores and displays them in a graph that can be viewed on the main screen.
 
 ### Monthly Overview
-The user can also view a graph of all their monthly scores by selecting a month on the monthly overview screen. This allows the user to track their progress over time and identify patterns in their mood. On this screen, the first and last daily score is displayed, for every day on the month for which a record exists. 
+
+<p align="center">
+  <img src="https://github.com/Pechlerbastian/FightDepression/blob/main/WhatsApp%20Image%202023-04-18%20at%2014.06.13.jpeg?raw=true" width="200">
+</p>
+The user can also view a graph of all their monthly scores by selecting a month on the monthly overview screen. This allows the user to track their progress over time and identify patterns in their mood. On this screen, the first and last daily score is displayed, for every day on the month for which a record exists.
 
 ## Technologies
 
