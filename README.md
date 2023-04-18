@@ -5,7 +5,7 @@ The Fight Depression App is a mobile application that is designed to help people
 
 ## Features
 ### Depression Training
-The Depression Training program is a daily activity that helps users confront negative thoughts and emotions. Each day, the user is presented with five statements -- one after another -- that are designed to trigger negative thoughts or emotions. The user is then given several reappraisals for each statement, which are positive or neutral statements that can help the user reframe their thinking.
+The Depression Training program is a daily activity that helps users confront negative thoughts and emotions. Each day, the user is presented with five statements (one after another) that are designed to trigger negative thoughts or emotions. The user is then given several reappraisals for each statement, which are positive or neutral statements that can help the user reframe their thinking.
 
 The user selects a reappraisal for each statement and then records themselves reading the reappraisal three times. The app uses a deep learning model to predict the user's depressive score based on the recordings.
 
