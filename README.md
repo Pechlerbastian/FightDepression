@@ -15,6 +15,17 @@ The Depression Training program is a daily activity that helps users confront ne
 
 The user selects a reappraisal for each statement and then records themselves reading the reappraisal three times. The app uses a deep learning model to predict the user's depressive score based on the recordings.
 
+
+
+### Further Training
+After finishing the daily train program, the users can select statements by themselves and the scores will be shown to them directly. The calculated scores are not persisted, when a user trains like this.
+
+<p align="center">
+    <img src="https://github.com/Pechlerbastian/FightDepression/blob/main/WhatsApp%20Image%202023-04-21%20at%2012.07.10.jpeg?raw=true" width="200">
+    <img src="https://github.com/Pechlerbastian/FightDepression/blob/main/WhatsApp%20Image%202023-04-21%20at%2012.07.02.jpeg?raw=true" width="200">
+</p>
+
+
 ### Predictive Model
 The app features a predictive model that uses deep learning to estimate the user's depressive score. The model analyzes the user's recordings and uses machine learning algorithms to predict the user's level of depression on a scale from 0 to 10. The app tracks the user's daily scores and displays them in a graph that can be viewed on the main screen.
 
