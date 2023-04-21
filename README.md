@@ -196,7 +196,7 @@ The DataParser used for training can be found at /FightDepression/python_utils/D
 
 The best performance was determined for fold 3 with densenet201 as base model. For this model, a Spearman coefficient of 0.2143 and a Pearson coefficient of 0.1765 were reached. 
 
-This app used a preprocessor and a tflite model to make the prediction of the scores. Both were created by utilization of DeepSpectrumLite. The preprocessor can be created by command line interface (deepspectrumlite create-preprocessor -d "path to model" -hc "path to hyperparameters". The resulting perprocessor folder was then converted to a tflite model via python script (see /python_utils/convert.py). The .h5 model resulting from the training was converted in a tflite model by utilizing the convert command in DeepSpectrumLite (# deepspectrumlite convert -s "path to trained h5.model" -d "path to tflite model").
+This app used a preprocessor and a tflite model to make the prediction of the scores. Both were created by utilization of DeepSpectrumLite. The preprocessor can be created by command line interface (deepspectrumlite create-preprocessor -d "path to model" -hc "path to hyperparameters". The resulting perprocessor folder was then converted to a tflite model via python script (see /python_utils/convert.py). The .h5 model resulting from the training was converted in a tflite model by utilizing the convert command in DeepSpectrumLite (deepspectrumlite convert -s "path to trained h5.model" -d "path to tflite model").
 
 
 ## Getting Started
