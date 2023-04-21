@@ -38,15 +38,8 @@ dependencies:
   cupertino_icons: ^1.0.2
   xml: ^6.1.0
   permission_handler: ^10.2.0
-  # image: ^3.0.2
-  # fftea: ^1.2.0+1
-  tuple: ^2.0.1
-  complex: ^0.7.2
   syncfusion_flutter_charts: ^21.1.39
   path_provider: ^2.0.14
-  flutter_ffmpeg: ^0.4.2
-  audioplayers: ^4.0.1
-  # tflite_flutter_helper: ^0.3.1
 
 dev_dependencies:
   flutter_test:
@@ -86,14 +79,6 @@ flutter:
   assets:
     - assets/tensorflow_model/model.tflite
     - assets/tensorflow_model/preprocessor.tflite
-    - assets/tensorflow_model/squeezenet/model.tflite
-    - assets/tensorflow_model/vgg19/preprocessor.tflite
-    - assets/sources/stim=1_try=1.wav
-    - assets/sources/stim=1_try=0.wav
-    - assets/sources/stim=7_try=0.wav
-    - assets/sources/stim=7_try=1.wav
-    - assets/sources/stim=7_try=2.wav
-    - assets/sources/stim=5_try=0.wav
     - assets/sources/arrays.xml
 
   # An image asset can refer to one or more resolution-specific "variants", see
